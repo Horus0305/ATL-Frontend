@@ -22,7 +22,6 @@ const SectionHeadPage = lazy(() => import("./pages/sectionhead"));
 const AllUsers = lazy(() => import("./pages/superadmin/AllUsers"));
 const AllDetails = lazy(() => import("./pages/superadmin/Home"));
 const Clients = lazy(() => import("./pages/receptionist/Clients"));
-const TestDetails = lazy(() => import("./pages/tester/TestDetails"));
 const ReceptionistHome = lazy(() => import("./pages/receptionist/Home"));
 const TestsPage = lazy(() => import("./pages/common/TestsPage"));
 const TestDetailsPage = lazy(() => import("./pages/common/TestDetailsPage.jsx"));

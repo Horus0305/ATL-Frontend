@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Button } from "@/components/ui/button";
-// import Results from "./Results";
 import {
   ChevronLeft,
   Loader2,
@@ -32,23 +31,18 @@ import {
   DialogTitle,
   DialogTrigger,
   DialogFooter,
-  DialogClose,
 } from "@/components/ui/dialog";
 import RORForm from "./RORForm";
 import JobCard from "./JobCard";
 import {
   Sheet,
   SheetContent,
-  SheetTrigger,
   SheetTitle,
   SheetDescription,
-  SheetFooter,
   SheetHeader,
 } from "@/components/ui/sheet";
 import { useNavigate } from "react-router-dom";
 import {
-  setEditingEnabled,
-  setupToggleEditingButton,
   setupImageControls,
   setupNotesManagement,
   setupSectionButtons,
