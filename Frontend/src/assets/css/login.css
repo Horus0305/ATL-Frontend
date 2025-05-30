@@ -1,0 +1,5 @@
+/* Example of custom width for form */
+.custom-width {
+  width: 120%; /* You can set this to any percentage */
+  max-width: 1200px; /* Optional: Set a maximum width */
+}
